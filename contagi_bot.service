@@ -1,0 +1,10 @@
+[Unit]
+Description="Bot Telegram - Contagi Bot"
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/software/contagiati_bot/
+ExecStart=python3 bot_contagiati.py
+
+[Install]
+WantedBy=multi-user.target
