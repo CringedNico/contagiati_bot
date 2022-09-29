@@ -8,5 +8,3 @@ Lo script è stato programmato in Python, con l'aggiunta delle API di Telegram, 
 In seguito, formatta il testo e inoltra il messaggio all'utente che ha effettuato la richiesta.
 
 Lo script è hostato su un VPS Oracle (come per il progetto di Zabbix) e viene eseguito all'avvio del server grazie al servizio creato appositamente.
-## Licenza
-Il codice sorgente del bot è stato pubblicato a puro scopo informativo, è vietato qualsiasi tipo di utilizzo.
