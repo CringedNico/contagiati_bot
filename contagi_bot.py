@@ -79,9 +79,9 @@ def start(update, context):
 
 
 def info(update, context):
-    update.message.reply_text("Il progetto Contagi Bot è nato durante la seconda ondata da Covid-19 per poter rimanere aggiornati sull'andamento dei contagi velocemente."
-                              "Lo script è stato programmato in Python, in modo tale che, alla ricezione di un comando dall'applicazione, 
-					"esegue una richiesta HTTP alla repository Github del dipartimento della Protezione Civile per prelevare i dati in formato JSON che vengono aggiornati giornalmente.")
+    update.message.reply_text("Il progetto Contagi Bot è nato durante la seconda ondata da Covid-19 per poter rimanere aggiornati sull'andamento dei contagi velocemente. "
+                              "Lo script è stato programmato in Python, in modo tale che, alla ricezione di un comando dall'applicazione, "
+			      "esegue una richiesta HTTP alla repository Github del dipartimento della Protezione Civile per prelevare i dati in formato JSON che vengono aggiornati giornalmente.")
 
 
 def mappa(update, context):
